@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(153, 99, 139);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgb(0, 255, 64);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(31, 71, 247);
+    border-radius: 0;
+    border-bottom: 5px solid rgb(59, 2, 2);
+  }
+
+  #timeDisplay {
+     text-align: center;
+  }
+  
