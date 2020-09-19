@@ -16,7 +16,27 @@ body {
     border-bottom: 5px solid rgb(59, 2, 2);
   }
 
-  #timeDisplay {
-     text-align: center;
+  form {
+      float: left;
+  }
+
+  .searchBtn {
+  color: rgb(20, 9, 9);
+  padding: 10px 10 px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: royalblue;
   }
   
+  #currentWeather{
+   text-align: center;
+  }
+
+  .currentForecast {
+      content:center;
+  }

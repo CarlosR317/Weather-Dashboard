@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="weather.css" type="text/css">
+     <link rel="stylesheet" href="weather.css" type="text/css">
     <title>Weather Dashboard</title>
 
     <!--     
@@ -34,20 +32,31 @@ THEN I am presented with the last searched city forecast
 </header>
 
 <body>
-         
-    <div id='timeDisplay'>
-        <p id="currentDay"></p>
-    </div>
-   
 
-<form id="citySearch">
-    <input >
+
+
+    <form class="container" id="citySearch">
+        <label for="search">Search Weather by City</label><br>
+        <input type="text" id="search" name="search"><br>
+        <button id="searchBtn" type="search" value="form_citySearch" class="searchBtn">
+            <label for="searchBtn">Search</label>
+        </button>
     </form>
 
-<div></div>
+    <ul class="searchedCitiesList"></ul>
 
-<script src="weather.js"></script>
+   <div>
+<div id="currentWeather"></div>
+<div id="fiveDay"></div>
+   </div>
 
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="weather.js">     
+    </script>
+
+    
 
 </body>
 
