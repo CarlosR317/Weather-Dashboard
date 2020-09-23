@@ -1,1 +1,2 @@
-# Weather-Dashboard
+# Weather-Dashboard:
+I was able to use the API and pull the information but I had hard time do anything else with it, I was not able to make the previously searched cities list. I have some code in there that I had tried to use but would just break the app. I am still struggling and having a hard time with any of this. I want to eventually come back to this and fix it to make it work right for my next portfolio update. I am close but just struggling to actually make things work right.
