@@ -11,6 +11,8 @@ $(document).ready(function () {
         console.log(city)
     })
 
+    // when this is un-commented it breaks the list but still pulls the API. the idea for this is that it should allow the user to click on the searched cities.
+    
     // $('#pastChoices').on('click', 'li', function() {
     //     weatherSearch($(this).text())
     // })
