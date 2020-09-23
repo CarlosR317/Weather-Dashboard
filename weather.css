@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(153, 99, 139);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgb(0, 255, 64);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(31, 71, 247);
+    border-radius: 0;
+    border-bottom: 5px solid rgb(59, 2, 2);
+  }
+
+  form {
+      float: left;
+  }
+
+  .searchBtn {
+  color: rgb(20, 9, 9);
+  padding: 10px 10 px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: royalblue;
+  }
+  
+  #currentWeather{
+       text-align: center;
+  }
+  
+  #fiveDay {
+      content: center;
+  }
+
+  #citySearch {
+      text-align: stack;
+  }
+  .currentForecast {
+      text-align:center;
+  }
