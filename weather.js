@@ -30,10 +30,12 @@ $(document).ready(function () {
         //  the ajax that actually pulls the API information
         $.ajax({ url: current, method: 'GET' })
             .done(function (response) {
+              for (let i = 0; i < localStorage.length; i ++)
+              {
                 localStorage.setItem("CurrentSearch", city);
                 var list = localStorage.getItem("CurrentSearch", city);
-                $("#citySearch").append(list);
-
+                $("#previousList").prepend(list);
+              }
 
                 console.log(response);
                 // pulls the specific information and creates an element to be able to put it on the HTML page

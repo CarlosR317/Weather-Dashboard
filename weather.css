@@ -5,6 +5,8 @@ body {
     line-height: 1;
 }
 
+
+
 .jumbotron {
     text-align: center;
     background-color: rgb(0, 255, 64);
@@ -15,6 +17,7 @@ body {
     border-radius: 0;
     border-bottom: 5px solid rgb(59, 2, 2);
   }
+
 
   form {
       float: left;
@@ -34,7 +37,8 @@ body {
   }
   
   #currentWeather{
-       text-align: center;
+    font-size: medium;   
+    text-align: center;
   }
   
   #fiveDay {

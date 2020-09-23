@@ -36,11 +36,16 @@ THEN I am presented with the last searched city forecast
     <!-- this is box the user sees when first on the page. user can type in the city here and click on the search button to search the weather for the typed city -->
     <form class="container" id="citySearch">
         <label for="search">Search Weather by City</label><br>
-        <input type="text" id="search" name="search"><br>
+        <input type="text" id="search" name="search" placeholder="Search City"><br>
         <button id="searchBtn" type="search" value="form_citySearch" class="searchBtn">
             <label for="searchBtn">Search</label>
         </button>
+        <legend>Previously Searched Cities</legend>
+        <ul id="previousList"></ul><br>
     </form>
+
+
+
 
 
     <!-- div for where the information will go for the user to see -->
@@ -50,12 +55,13 @@ THEN I am presented with the last searched city forecast
     <div id="fiveDay" class="container" class="text-center"></div>
     <!-- five day forecast for the typed city -->
     </div>
-    <aside id="pastChoices" class="container" class="text-left"></aide>
+    <aside id="pastChoices" class="container" class="text-left">
+        </aide>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="weather.js">
-    </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="weather.js">
+        </script>
 
 
 
